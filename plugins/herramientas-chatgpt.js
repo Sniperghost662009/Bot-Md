@@ -1,16 +1,16 @@
 /* -------------------------------------------------------*/
+/* [❗]                      [❗]                     [❗] */
+/*                                                           */
+/*       |- [ ⚠ ] - CREDITOS DEL CODIGO - [ ⚠ ] -|          */
+/*     —◉ DESAROLLADO POR OTOSAKA:                           */
+/*     ◉ Otosaka (https://github.com/6otosaka9)              */
+/*     ◉ Número: wa.me/51993966345                           */
+/*                                                            */
+/*     —◉ FT:                                                */
+/*     ◉ BrunoSobrino (https://github.com/Sniperghost662009) */
+/*                                                           */
 /* [❗]                      [❗]                      [❗] */
-/*                                                       */
-/*       |- [ ⚠ ] - CREDITOS DEL CODIGO - [ ⚠ ] -|      */
-/*     —◉ DESAROLLADO POR OTOSAKA:                       */
-/*     ◉ Otosaka (https://github.com/6otosaka9)          */
-/*     ◉ Número: wa.me/51993966345                       */
-/*                                                       */
-/*     —◉ FT:                                            */
-/*     ◉ BrunoSobrino (https://github.com/BrunoSobrino)  */
-/*                                                       */
-/* [❗]                      [❗]                      [❗] */
-/* -------------------------------------------------------*/
+/* ----------------------------------------------------------*/
 import fetch from 'node-fetch';
 import axios from 'axios';
 import translate from '@vitalets/google-translate-api';
@@ -48,7 +48,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
     } catch {
       try {
         conn.sendPresenceUpdate('composing', m.chat);
-        const syms1 = `Actuaras como un Bot de WhatsApp el cual fue creado por BrunoSobrino, tu seras The Mystic - Bot.`;
+        const syms1 = `Actuaras como un Bot de WhatsApp el cual fue creado por Snipe, Eres Snipe-bot.`;
         const fgapi1 = await fetch(`https://api-fgmods.ddns.net/api/info/openai?text=${text}&symsg=${syms1}&apikey=XlwAnX8d`);
         const fgjson1 = await fgapi1.json();
         if (fgjson1.result == 'error' || fgjson1.result == '' || !fgjson1.result) return XD; // causar error undefined para lanzar msg de error
