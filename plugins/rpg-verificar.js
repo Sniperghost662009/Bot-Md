@@ -11,7 +11,7 @@ const handler = async function(m, {conn, text, usedPrefix, command}) {
   if (!age) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙰 𝙴𝙳𝙰𝙳 𝙽𝙾 𝙿𝚄𝙴𝙳𝙴 𝙴𝚂𝚃𝙰𝚁 𝚅𝙰𝙲𝙸𝙰*';
   if (name.length >= 30) throw '[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙴𝚂 𝙳𝙴𝙼𝙰𝚂𝙸𝙰𝙳𝙾 𝙻𝙰𝚁𝙶𝙾';
   age = parseInt(age);
-  if (age > 100) throw '*[❗] Kheee, como sigues vivo con esa edad? abuelit@ ven a mi😏*';
+  if (age >60 ) throw '*[❗] abuelit@ ven a mi😏*';
   if (age < 5) throw '*[❗] Kheee, un bebé que sabe usar WhatsApp?😲 mejor mamale el pene a snipe*';
   user.name = name.trim();
   user.age = age;
