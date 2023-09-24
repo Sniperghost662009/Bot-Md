@@ -9,7 +9,7 @@ const handler = async function(m, {conn, text, usedPrefix, command}) {
   let [_, name, splitter, age] = text.match(Reg);
   if (!name) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙳𝙴𝙱𝙴𝚂 𝙿𝙾𝙽𝙴𝚁 𝚄𝙽 𝙽𝙾𝙼𝙱𝚁𝙴*';
   if (!age) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙰 𝙴𝙳𝙰𝙳 𝙽𝙾 𝙿𝚄𝙴𝙳𝙴 𝙴𝚂𝚃𝙰𝚁 𝚅𝙰𝙲𝙸𝙰*';
-  if (name.length >= 30) throw '[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙴𝚂 𝙳𝙴𝙼𝙰𝚂𝙸𝙰𝙳𝙾 𝙻𝙰𝚁𝙶𝙾';
+  if (name.length >= 30) throw '[❗𝐈𝐍𝐅𝐎❗] Es un nombre no la biblia';
   age = parseInt(age);
   if (age >60 ) throw '*[❗] abuelit@ ven a mi😏*';
   if (age < 5) throw '*[❗] Kheee, un bebé que sabe usar WhatsApp?😲 mejor mamale el pene a snipe*';
