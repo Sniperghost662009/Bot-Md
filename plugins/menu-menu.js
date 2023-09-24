@@ -4,7 +4,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   try {
     const pp = imagen4;
     // let vn = './media/menu.mp3'
-    const img = './Menu2.jpg';
+    const img = '.Sin título.png';
     const d = new Date(new Date + 3600000);
     const locale = 'es';
     const week = d.toLocaleDateString(locale, {weekday: 'long'});
@@ -14,7 +14,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const user = global.db.data.users[m.sender];
     const {money, joincount} = global.db.data.users[m.sender];
     const {exp, limit, level, role} = global.db.data.users[m.sender];
-    const rtotalreg = Object.values(global.db.data.users).filter((user) => user.registered == true).length;
+    const rtotalreg = Object.values(global.db.data.uers).filter((user) => user.registered == true).length;
     const rtotal = Object.entries(global.db.data.users).length || '0'
     const more = String.fromCharCode(8206);
     const readMore = more.repeat(850);
