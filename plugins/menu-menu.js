@@ -23,19 +23,17 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = 
 `╭═══〘 ♕♕♕♕♕♕♕ 〙══╮
-║    ◉— *𝐓𝐡𝐞 Snipe- 𝐁𝐨𝐭* —◉
-║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║→ *𝗛ola, ${taguser}*
-║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║→ *Creador:* Snipe (Axel)
-║→ *Whatsapp:* wa.me/524922108173
-║→ *Bot ofc:* wa.me/18193003906
-║→ *Bot ofc 2:* wa.me/18198009989
-║→ *PayPal:* No hay joven no te robamos tu dinero
-║→ *Fecha:* ${date}
-║→ *Tiempo activo:* ${uptime}
-║→ *Usuarios regs:* ${rtotalreg}
-║→ *Usuarios totales:* ${rtotal}
+|   ◉— *𝐓𝐡𝐞 Snipe- 𝐁𝐨𝐭* —◉
+|→ *𝗛ola, ${taguser}*
+|→ *Creador:* Snipe (Axel)
+|→ *Whatsapp:* wa.me/524922108173
+|→ *Bot ofc:* wa.me/18193003906
+|→ *Bot ofc 2:* wa.me/18198009989
+|→ *PayPal:* No hay joven no te robamos tu dinero
+|→ *Fecha:* ${date}
+|→ *Tiempo activo:* ${uptime}
+|→ *Usuarios regs:* ${rtotalreg}
+|→ *Usuarios totales:* ${rtotal}
 ╰═══╡♕♕♕♕♕♕♕╞═══╯
 
 ┏━━━━━━━━━━━━━━━━┓
