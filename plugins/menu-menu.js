@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
   try {  
-    const pp = imagen2;
+    const pp = imagen5;
     // let vn = './media/menu.mp3'
     const img = './Menu2.jpg';
     const d = new Date(new Date + 3600000);
@@ -21,28 +21,29 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
+    const str = 
+`╭═══〘 ♕♕♕♕♕♕♕ 〙══╮
 ║    ◉— *𝐓𝐡𝐞 Snipe- 𝐁𝐨𝐭* —◉
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║➤ *𝗛ola, ${taguser}*
+║→ *𝗛ola, ${taguser}*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║➤ *Owner:* Snipe (Axel)
-║➤ *Numero:* wa.me/524922108173
-║➤ *Bot ofc:* wa.me/18193003906
-║➤ *Bot ofc 2:* wa.me/18198009989
-║➤ *PayPal:* No hay joven no te robamos tu dinero
-║➤ *Fecha:* ${date}
-║➤ *Tiempo activo:* ${uptime}
-║➤ *Usuarios regs:* ${rtotalreg}
-║➤ *Usuarios totales:* ${rtotal}
-╰═══╡✯✯✯✯✯✯✯✯✯╞═══╯
+║→ *Creador:* Snipe (Axel)
+║→ *Whatsapp:* wa.me/524922108173
+║→ *Bot ofc:* wa.me/18193003906
+║→ *Bot ofc 2:* wa.me/18198009989
+║→ *PayPal:* No hay joven no te robamos tu dinero
+║→ *Fecha:* ${date}
+║→ *Tiempo activo:* ${uptime}
+║→ *Usuarios regs:* ${rtotalreg}
+║→ *Usuarios totales:* ${rtotal}
+╰═══╡♕♕♕♕♕♕♕╞═══╯
 
 ┏━━━━━━━━━━━━━━━━┓
 ┃ *< 𝕀ℕ𝔽𝕆 𝔻𝔼𝕃 𝕌𝕊𝕌𝔸ℝ𝕀𝕆 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
 ┣ *🎖️ Nivel:* ${level}
 ┣ *🧰 Experiencia:* ${exp}
-┣ *⚓ Rango:* ${role}
+┣ *💹 Rango:* ${role}
 ┣ *💎 Diamantes:* ${limit}
 ┣ *👾 Coins:* ${money}
 ┣ *🪙 Tokens:* ${joincount}
@@ -58,9 +59,9 @@ ${readMore}
 ┏━━━━━━━━━━━━━━━━┓
 ┃ *< 𝕊𝕆𝕃𝕌ℂ𝕀𝕆ℕ 𝔸 𝔼ℝℝ𝕆ℝ𝔼𝕊 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣➤ Mensajes en espera
+┣→ Mensajes en espera
 ┣ ඬ⃟ ⭐ _${usedPrefix}fixmsgespera_
-┣➤ Mensajes en espera (owner)
+┣→ Mensajes en espera (owner)
 ┣ ඬ⃟ ⭐ _${usedPrefix}dsowner_
 ┗━━━━━━━━━━━━━━━━┛
 
