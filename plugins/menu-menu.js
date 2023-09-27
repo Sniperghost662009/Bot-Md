@@ -5,7 +5,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     <a href="https://imgbb.com/"><img src="https://i.ibb.co/H7MkMjc/giphy.webp" alt="giphy" border="0" /></a>
     const pp = <a href="https://imgbb.com/"><img src="https://i.ibb.co/H7MkMjc/giphy.webp" alt="giphy" border="0" /></a>;
     // let vn = './media/menu.mp3'
-    const img = <a href="https://imgbb.com/"><img src="https://i.ibb.co/H7MkMjc/giphy.webp" alt="giphy" border="0" /></a>;
+    const <a href="https://imgbb.com/"><img src="https://i.ibb.co/H7MkMjc/giphy.webp" alt="giphy" border="0" /></a>;
     const d = new Date(new Date + 3600000);
     const locale = 'es';
     const week = d.toLocaleDateString(locale, {weekday: 'long'});
