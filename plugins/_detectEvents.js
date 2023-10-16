@@ -19,7 +19,7 @@ export async function before(m, {conn, participants}) {
   const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
 
   if (chat.detect2 && m.messageStubType == 29) {
-    let txt1 = `*Recientemente se ha promovido un miembro a administrador.*\n\n`;
+    let txt1 = `*quien le dio admin.*\n\n`;
     txt1 += `*◦  Grupo:* ${groupName}\n`;
     txt1 += `*◦  Nuevo admin:* @${m.messageStubParameters[0].split`@`[0]}\n`;
     txt1 += `*◦  Ejecutado por:* @${m.sender.split`@`[0]}`;
@@ -27,7 +27,7 @@ export async function before(m, {conn, participants}) {
   }
 
   if (chat.detect2 && m.messageStubType == 30) {
-    let txt2 = `*Recientemente se ha degradado un administrador a miembro.*\n\n`;
+    let txt2 = `*quien le quito admin?*\n\n`;
     txt2 += `*◦  Grupo:* ${groupName}\n`;
     txt2 += `*◦  Se quitó a:* @${m.messageStubParameters[0].split`@`[0]}\n`;
     txt2 += `*◦  Ejecutado por:* @${m.sender.split`@`[0]}`;
@@ -35,7 +35,7 @@ export async function before(m, {conn, participants}) {
   }
 
   if (chat.detect2 && m.messageStubType == 27) {
-    let txt3 = `*Recientemente se ha incorporado al grupo un nuevo miembro.*\n\n`;
+    let txt3 = `*Recientemente se ha incorporado al grupo un nuevo pana.*\n\n`;
     txt3 += `*◦  Grupo:* ${groupName}\n`;
     if (!m.sender.endsWith('@g.us')) {
       txt3 += `*◦  Se añadió a:* @${m.messageStubParameters[0].split`@`[0]}\n`;
@@ -47,7 +47,7 @@ export async function before(m, {conn, participants}) {
   }
 
   if (chat.detect2 && m.messageStubType == 28) {
-    let txt4 = `*Recientemente se ha eliminado un miembro del grupo.*\n\n`;
+    let txt4 = `*Recientemente se ha eliminado un gay del grupo.*\n\n`;
     txt4 += `*◦  Grupo:* ${groupName}\n`;
     if (!m.sender.endsWith('@g.us')) {
       txt4 += `*◦  Se eliminó a:* @${m.messageStubParameters[0].split`@`[0]}\n`;
@@ -65,7 +65,7 @@ export async function before(m, {conn, participants}) {
     } else {
       ax = 'eliminado';
     }
-    let txt5 = `*Recientemente se ha ${ax} un miembro del grupo.*\n\n`;
+    let txt5 = `*Recientemente se ha ${ax} un gay del grupo.*\n\n`;
     txt5 += `*◦  Grupo:* ${groupName}\n`;
     if (ax === 'eliminado') {
       txt5 += `*◦  Se eliminoó a:* @${m.messageStubParameters[0].split`@`[0]}\n`;
