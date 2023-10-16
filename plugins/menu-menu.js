@@ -2,11 +2,7 @@ import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
   try {
-    const pp = imagen8;
-    // let vn = './media/menu.mp3'
-    const img = './Menu.png';
-    const d = new Date(new Date + 3600000);
-    const locale = 'es';
+    const pp = imagen2;
     const week = d.toLocaleDateString(locale, {weekday: 'long'});
     const date = d.toLocaleDateString(locale, {day: 'numeric', month: 'long', year: 'numeric'});
     const _uptime = process.uptime() * 1000;
