@@ -1,14 +1,5 @@
-# `🧿 𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝 🔮` 
 
-------------------
-> **AVISO**: Yo "Bruno Sobrino", me he retirado de todo lo relacionado con el Bot o temas similares, por lo que en algun momento quedará obsoleto y/o algunos comandos dejarán de funcionar. Agradezco su preferencia durante el recorrido por este mundo de los Bots.
 
-> TheMystic-Bot-MD pasa a quedar en manos de colaboradores, y como principal representante Aiden_NotLogic
-------------------
-
-### `—◉ 🔗 CUENTAS OFICIALES 🔗`
-
-* https://www.atom.bio/theshadowbrokers-team
 
 ### `—◉ 💟 GRUPO DE SOPORTE 💟`
 
@@ -66,7 +57,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/BrunoSobrino/TheMystic-Bot-MD.git && cd TheMystic-Bot-MD
+git clone https://github.com/Sniperghost662009/Bot-Md.git && cd Bot-MD
 ```
 
 ```bash
